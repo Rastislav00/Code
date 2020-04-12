@@ -1,0 +1,24 @@
+Dobro došli
+
+  MineSweeper igra napravljena u C++, na terminalu	
+
+	U folderu se nalaze:
+	slike koje prikazuju kako aplikacija radi.
+	Ceo source kod MineSwaper.cpp i Tabla.h
+	Realese .exe fajl koji je spreman za pokretanje na windowsu
+
+  Pošto se igra igra preko terminala, komande se unose sa tastature
+  unose se tri komande prva komanda određuje X osu, druga komanda određuje Y osu
+  X Y predstavljaju kordinate polja koje možete selektovati
+  X osa je označena Slovima   [A,B,C,...Z,a,b,c,...z]
+  Y osa je označena Brojevima [0, 1, 2, 3, ... ]
+  Treća komanda predstavlja šta želimo raditi sa označenim poljem
+  S <- otvori polje
+  B <- postavi znak koji predstavlja vašu pretpostavku da se tamo nalazi Bomba
+  O <- ukloni znak koji predstavlja vašu pretpostavku da se tamo nalazi Bomba
+  Za kraj igre unesite "end"
+
+  Kraj igre je u slučaju da otvorite polje sa bombom, onda ste izgubili, 
+  ili ako sve bombe pokrijete sa pretpostavkama da su tamo bombe, onda ste pobedili
+
+Rastislav Kukučka
